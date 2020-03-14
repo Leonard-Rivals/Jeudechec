@@ -15,4 +15,9 @@ public class Pion implements Piece {
     public boolean estBlanc() {
         return estBalnc;
     }
+
+    @Override
+    public boolean mouvementValide(Point depart, Point arrivee) {
+        return false;
+    }
 }
