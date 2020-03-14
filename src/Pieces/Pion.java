@@ -8,17 +8,7 @@ public class Pion extends Piece {
     private boolean estBalnc;
 
     public Pion (boolean estBlanc){
-
-    }
-    @Override
-    public void mouvement(Point depart, Point arrivee) {
-
+        super(estBlanc);
     }
 
-
-
-    @Override
-    public boolean mouvementValide(Point depart, Point arrivee) {
-        return false;
-    }
 }
